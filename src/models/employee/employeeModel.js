@@ -22,7 +22,7 @@ const employeeSchema = new Schema({
     phone:{
         type:String
     },
-    idVerified:{
+    isVerified:{
         type:Boolean
     }
 })

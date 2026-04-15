@@ -1,4 +1,6 @@
-import { app } from "./app/app"
+import { app } from "./app/app.js"
+import "./database/database.js"
+
 
 const main = async() =>{
   app.listen(4000)
